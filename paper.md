@@ -1,22 +1,17 @@
 ---
-title: 'Fidgit: An ungodly union of GitHub and figshare'
+title: 'Apple Health Data Extractor'
 tags:
-- example
-- tags
-- for the paper
+- health
+- step counting
 authors:
-- name: Arfon M Smith
-  orcid: 0000-0000-0000-1234
-  affiliation: "1, 2" # (Multiple affiliations must be quoted)
-- name: Mickey Mouse
-  orcid: 0000-0000-0000-1234
-  affiliation: 2
+- name: Joseph M Mahoney
+  orcid: 0000-0002-8098-0170
+  affiliation: "1, #" (Multiple affiliations must be quoted)
 affiliations:
-- name: Space Telescope Science Institute
+- name: The Pennsylvania State University, Berks College
   index: 1
-- name: Disney Inc.
-  index: 2
-date: 14 February 2016
+
+date: 14 April 2018
 bibliography: paper.bib
 ---
 
