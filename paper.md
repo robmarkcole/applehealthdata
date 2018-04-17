@@ -35,7 +35,7 @@ The script produces two matrix variables: `steplist` and `distlist`. `steplist` 
 
 An example file from an iPhone 6 running iOS 11.3 is included in the archive. 
 
-The output produes the two matrices and following histogram:
+The output of the example file produces the two matrices and following histograms:
 
 ![Fidgit deposited in figshare.](hist.png)
 
@@ -49,5 +49,6 @@ or recent scholarly publications enabled by it
 
 This is an example citation [@figshare_archive].
 
+[@veerabhadrappa2018tracking] 
 
 # References
