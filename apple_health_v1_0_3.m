@@ -2,7 +2,7 @@
  
 Apple Health Step and Distance Extractor 
 v 1.0.3 | April 16 2018
-(c) JM Mahoney, Ph.D., Penn State Berks 
+(c) Joseph M. Mahoney, Ph.D., Penn State Berks 
 https://sites.psu.edu/mahoneygroup/
 
 Please cite using DOI: 10.13140/RG.2.2.18601.70247 
@@ -117,9 +117,25 @@ clear data KK dats % clean up
 
 %% reduce to *daily* total (distance in miles)
 distlist = [0 0]; % initialize data
-dats = unique(data2(:,1)); % find unique dates that data was recorded
-for KK = 1:length(dats)  % sum all measurements occuring on same date
+dats = unique(data2(:,1));  % find unique dates that data was recorded
+for KK = 1:length(dats)     % sum all measurements occuring on same date
     distlist(KK,1) = dats(KK);
     distlist(KK,2) = sum (data2(data2(:,1)==dats(KK),2));
 end
 clear data2 KK dats  % clean up
+
+
+%% Histogram Plotting
+close all; clc;
+subplot(2,1,1);
+histogram(steplist(:,2)/1e3,'Normalization','pdf','BinMethod','scott');
+grid on;
+xlabel('Steps [1000]','fontsize',14);
+ylabel('Frequency','fontsize',14);
+set(gca,'fontsize',12);
+subplot(2,1,2);
+histogram(distlist(:,2),'Normalization','pdf','BinMethod','scott');
+xlabel('Distance [miles]','fontsize',14);
+ylabel('Frequency','fontsize',14);
+grid on;
+set(gca,'fontsize',12);
