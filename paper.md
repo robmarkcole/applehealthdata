@@ -35,6 +35,10 @@ The script produces two matrix variables: `steplist` and `distlist`. `steplist` 
 
 An example file from an iPhone 6 running iOS 11.3 is included in the archive. 
 
+The output produes the two matrices and following histogram:
+
+![Fidgit deposited in figshare.](hist.png)
+
 - A summary describing the high-level functionality and purpose of the software
 for a diverse, non-specialist audience
 - A clear statement of need that illustrates the purpose of the software
@@ -42,12 +46,8 @@ for a diverse, non-specialist audience
 - Mentions (if applicable) of any ongoing research projects using the software
 or recent scholarly publications enabled by it
 
-Citations to entries in paper.bib should be in
-[rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
-format.
 
 This is an example citation [@figshare_archive].
 
-Figures can be included like this: ![Fidgit deposited in figshare.](hist.png)
 
 # References
