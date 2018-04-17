@@ -25,7 +25,7 @@ Instructions to retrieve the raw data from the app are in the pdf file.
   
 Apple Health writes the data in epochs of various lengths of time. Data in epochs that pass through midnight local time are counted all in the second day.
 
-The script produces two matrix variables. `steplist' is a two-column vector with the date in YYYYMMDD format as the first column and the number of steps recorded that day as the second. `distlist' is a two-column vector with the date in YYYYMMDD format as the second column and the distance traveled (in miles) recorded that day as the second. 
+The script produces two matrix variables. `steplist` is a two-column vector with the date in YYYYMMDD format as the first column and the number of steps recorded that day as the second. `distlist` is a two-column vector with the date in YYYYMMDD format as the second column and the distance traveled (in miles) recorded that day as the second. 
 
 
 - A summary describing the high-level functionality and purpose of the software
