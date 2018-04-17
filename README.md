@@ -1,25 +1,19 @@
 ---
 
-# comorbidity
+# Apple Health Data Extractor
 
-`comorbidity` is an R package for computing comorbidity scores such as the weighted Charlson score and the Elixhauser comorbidity score; both ICD-10 and ICD-9 coding systems are supported.
+`Apple Health Data Extractor` is a MATLAB m file for extracting step and distance information from the Apple Health app into a useable form for data anaylsis.
 
 ## Installation
 
-`comorbidity` is on CRAN. You can install it as usual with:
-
-```{r cran-installation, eval = FALSE}
-install.packages("comorbidity")
-```
+This m script is self contained and can be run directly from MATLAB.
 
 
 ## Citation
 
-If you find `comorbidity` useful, please cite it in your publications:
+If you use `Apple Health Data Extractor` to extract step count or distance data for your publication, please cite it as:
 
-```{r citation}
-citation("comorbidity")
-```
+
 
 ## References
 
