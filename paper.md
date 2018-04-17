@@ -6,7 +6,7 @@ tags:
 authors:
 - name: Joseph M Mahoney
   orcid: 0000-0002-8098-0170
-  affiliation: "1" (Multiple affiliations must be quoted)
+  affiliation: 1
 affiliations:
 - name: The Pennsylvania State University, Berks College
   index: 1
