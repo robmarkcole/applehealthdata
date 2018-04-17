@@ -17,6 +17,11 @@ bibliography: paper.bib
 
 # Summary
 
+This program extracts daily step and distance data from the exported zip file from the Apple Health App. Instructions to retrieve the raw data from the app are in the pdf file.
+  
+Apple Health writes the data in epochs of various lengths of time. Data in epochs that pass through midnight local time are counted all in the second day.
+
+
 - A summary describing the high-level functionality and purpose of the software
 for a diverse, non-specialist audience
 - A clear statement of need that illustrates the purpose of the software
