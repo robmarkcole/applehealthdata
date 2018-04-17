@@ -33,6 +33,7 @@ Apple Health writes the data in epochs of various lengths of time. Data in epoch
 
 The script produces two matrix variables: `steplist` and `distlist`. `steplist` is a two-column vector with the date in YYYYMMDD format as the first column and the number of steps recorded that day as the second. `distlist` is a two-column vector with the date in YYYYMMDD format as the second column and the distance traveled (in miles) recorded that day as the second. For visualization and spot-checking, the script will also produce histograms of the two metrics. 
 
+An example file from an iPhone 6 running iOS 11.3 is included in the archive. 
 
 - A summary describing the high-level functionality and purpose of the software
 for a diverse, non-specialist audience
@@ -47,6 +48,6 @@ format.
 
 This is an example citation [@figshare_archive].
 
-Figures can be included like this: ![Fidgit deposited in figshare.](figshare_article.png)
+Figures can be included like this: ![Fidgit deposited in figshare.](hist.png)
 
 # References
