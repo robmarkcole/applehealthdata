@@ -17,7 +17,7 @@ bibliography: paper.bib
 
 # Summary
 
-With the increased interest in activity monitoring, especially step counting, the ability to accurately measure and record steps is imperative. Commonly-available commercial products such as FitBit and ActiGraph can be worn to measure steps in addition to other activityThese devices have been shown to be accurate [-@veerabhadrappa2018tracking] in step counting studies. However, they require that 
+With the increased interest in activity monitoring, especially step counting, the ability to accurately measure and record steps is imperative. Commonly-available commercial products such as FitBit, Jawbone and ActiGraph can be worn to measure steps in addition to other activitys [@tudor2008revisiting]. These devices have been shown to be accurate in step-counting studies [@veerabhadrappa2018tracking]. However, they require that 
 
 - subjects remember to wear the device at all times, 
 - researchers purchase and maintain enough devices to run a large-scale study
@@ -38,16 +38,5 @@ An example file from an iPhone 6 running iOS 11.3 is included in the archive.
 The output of the example file produces the two matrices and following histograms:
 
 ![Fidgit deposited in figshare.](hist.png)
-
-- A summary describing the high-level functionality and purpose of the software
-for a diverse, non-specialist audience
-- A clear statement of need that illustrates the purpose of the software
-- A list of key references including a link to the software archive
-- Mentions (if applicable) of any ongoing research projects using the software
-or recent scholarly publications enabled by it
-
-
-This is an example citation [@figshare_archive].
- 
 
 # References
