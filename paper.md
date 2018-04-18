@@ -3,6 +3,8 @@ title: 'Apple Health Data Extractor (Matlab)'
 tags:
 - health
 - step counting
+- pedometry  
+- pedometer 
 authors:
 - name: Joseph M. Mahoney
   orcid: 0000-0002-8098-0170
@@ -11,11 +13,13 @@ affiliations:
 - name: The Pennsylvania State University, Berks College
   index: 1
 
-date: 14 April 2018
+date: 17 April 2018
 bibliography: paper.bib
 ---
 
 # Summary
+
+`Apple Health Data Extractor` is a MATLAB script for extracting step and distance information from the Apple Health app into a usable form for data analysis. The software creates daily step count and distance measurements from the data being collected by the Health app. 
 
 With the increased interest in activity monitoring, especially step counting, the ability to accurately measure and record steps is imperative. Commonly-available commercial products such as FitBit, Jawbone and ActiGraph can be worn to measure steps in addition to other activitys [@tudor2008revisiting]. These devices have been shown to be accurate in step-counting studies [@veerabhadrappa2018tracking]. However, they require that 
 
@@ -27,16 +31,6 @@ A solution to these problems is to leverage a device that many subjects will alr
 
 The data is structured in time epochs of several minutes of step and distance data. This program extracts daily step and distance data from the exported zip file from the Apple Health app. In this version, a single zip file can be selected and analyzed. A loop can be written around the script to automate the extraction process in a batch. 
 
-Instructions to retrieve the raw data from the app are in the pdf file.
-  
-Apple Health writes the data in epochs of various lengths of time. Data in epochs that pass through midnight local time are counted all in the second day.
-
-The script produces two matrix variables: `steplist` and `distlist`. `steplist` is a two-column vector with the date in YYYYMMDD format as the first column and the number of steps recorded that day as the second. `distlist` is a two-column vector with the date in YYYYMMDD format as the second column and the distance traveled (in miles) recorded that day as the second. For visualization and spot-checking, the script will also produce histograms of the two metrics. 
-
-An example file from an iPhone 6 running iOS 11.3 is included in the archive. 
-
-The output of the example file produces the two matrices and following histograms:
-
-![Fidgit deposited in figshare.](hist.png)
+Documentation, source code, and an example file can be found on the [Apple Health Extractor Github page](https://github.com/drjmm84/applehealthdata).
 
 # References
