@@ -10,6 +10,9 @@ This m script is self contained and can be run directly from MATLAB.
 
 ## Citation
 
+If you use `Apple Health Data Extractor` to extract step count or distance data for your publication, please cite it as:
+
+
 ## Summary
 
 With the increased interest in activity monitoring, especially step counting, the ability to accurately measure and record steps is imperative. Commonly-available commercial products such as FitBit, Jawbone and ActiGraph can be worn to measure steps in addition to other activitys [@tudor2008revisiting]. These devices have been shown to be accurate in step-counting studies [@veerabhadrappa2018tracking]. However, they require that 
@@ -28,12 +31,25 @@ Apple Health writes the data in epochs of various lengths of time. Data in epoch
 
 The script produces two matrix variables: `steplist` and `distlist`. `steplist` is a two-column vector with the date in YYYYMMDD format as the first column and the number of steps recorded that day as the second. `distlist` is a two-column vector with the date in YYYYMMDD format as the second column and the distance traveled (in miles) recorded that day as the second. For visualization and spot-checking, the script will also produce histograms of the two metrics. 
 
-An example file from an iPhone 6 running iOS 11.3 is included in the archive. 
+An example health data file from an iPhone 6 running iOS 11.3 is included in the archive as `example.zip`. 
 
 The output of the example file produces the two matrices and following histograms:
 
 ![Fidgit deposited in figshare.](hist.png)
 
+### Getting the data file from the iPhone
+
+1.	Open or search for the “Health” app from your home screen. 
+
+![Fidgit deposited in figshare.](step1.png)
+
+2.	Once the app opens, you will see the screen below. Tap on the red profile icon in the top right of the app.
+
+![Fidgit deposited in figshare.](step2.png)
+
+3.	The screen below will then open. Scroll down to “Export Health Data” and click on the button. It will ask you if you are sure, click “Export”. Select how you want to get the data file. You can email it to using “Mail” or “Gmail” (whatever you use to check your email) or save it to a cloud service like Dropbox. The file will be in zip format and, by default, called “export.zip”. 
+
+![Fidgit deposited in figshare.](step3.png)
+
 ## References
 
-If you use `Apple Health Data Extractor` to extract step count or distance data for your publication, please cite it as:
