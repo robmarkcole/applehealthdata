@@ -17,7 +17,7 @@ bibliography: paper.bib
 
 # Summary
 
-With the increased interest in activity monitoring, especially step counting, the ability to accurately measure and record steps is imperative. Commonly-available commercial products such as FitBit and ActiGraph can be worn to measure steps in addition to other activityThese devices have been shown to be accurate [?] in step counting studies. However, they require that 
+With the increased interest in activity monitoring, especially step counting, the ability to accurately measure and record steps is imperative. Commonly-available commercial products such as FitBit and ActiGraph can be worn to measure steps in addition to other activityThese devices have been shown to be accurate [-@veerabhadrappa2018tracking] in step counting studies. However, they require that 
 
 - subjects remember to wear the device at all times, 
 - researchers purchase and maintain enough devices to run a large-scale study
@@ -48,7 +48,6 @@ or recent scholarly publications enabled by it
 
 
 This is an example citation [@figshare_archive].
-
-[@veerabhadrappa2018tracking] 
+ 
 
 # References
